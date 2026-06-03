@@ -15,7 +15,7 @@ st.set_page_config(
 
 # ---------------- API KEY ----------------
 
-API_KEY = "AIzaSyBqvpVUxq0Wqbsk7CmP6DORDnkZG-x96Vg"
+API_KEY = st.secrets["API_KEY"]
 
 # ---------------- SESSION STATE ----------------
 
