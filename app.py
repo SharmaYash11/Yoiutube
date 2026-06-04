@@ -136,7 +136,7 @@ def get_channel_details(channel_id):
 @st.cache_data(ttl=3600)
 def get_recent_videos(
     playlist_id,
-    max_results=20
+    max_results=50
 ):
 
     print("RECENT VIDEOS API CALLED")
@@ -297,7 +297,7 @@ def get_video_comments(
             video_id,
 
         "maxResults":
-            10,
+            50,
 
         "order":
             order_type,
